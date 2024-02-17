@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações de Países</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="formulario">
+        <h1>Informações de Países</h1>
+        <div class="input_pesquisa">
+            <input type="text" name="" id="paisInput" placeholder="Digite o nome do pais aqui...">
+
+            <button onclick="pesquisarPais()" id="pesquisar_btn">Pesquisar</button>
+        </div>
+
+        <div id="resultado"></div>
+
+        <div>
+            <button class="exportar_xls" onclick="exportarParaXLS()">Exportar para XLS</button>
+            <button class="exportar_csv" onclick="exportarParaCSV()">Exportar para CSV</button>
+            <button  class="exportar_xml" onclick="exportarParaXML()">Exportar para XML</button>
+        </div>
+       
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.5/xlsx.full.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

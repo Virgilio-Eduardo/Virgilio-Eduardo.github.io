@@ -1,0 +1,159 @@
+/* styles.css */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-bottom: 2.5rem;
+    color: #222a43;
+}
+
+#pais-info {
+    margin-top: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+
+
+body{
+    background-color: rgb(48, 48, 48);
+}
+
+
+.formulario{
+    background-color: #fff;
+    position: absolute;
+    padding: 3em 3.5em;
+    width: 80vw;
+    max-width: 37.5em;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+    box-shadow: 0 1.25em 1.8em rgb(48, 48, 48);
+}
+
+.input_pesquisa{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.25em;
+}
+
+
+.input_pesquisa button{
+    font-size: 1em;
+    background-color: #3d64e6;
+    padding: 0.8em;
+    border: none;
+    border-radius: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input_pesquisa button:hover{
+    background-color: #011e7c;
+    transition: 1s ease;
+}
+
+.input_pesquisa input{
+    font-size: 1em;
+    padding: 0 0.62em;
+    border: none;
+    border-bottom: 2px solid #3d64e6;
+    outline: none;
+    color: #222a43;
+}
+
+#pais-info{
+    margin-top: 1rem;
+}
+
+
+.formulario .bandeira-img{
+
+    display: block;
+    width: 45%;
+    min-height: 7.5em;
+    margin: 1.8em auto 1.2em auto ;
+}
+
+.formulario h2 {
+    font-weight: 600;
+    color: #222a43;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+
+.data-info{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+
+}
+
+
+.formulario h4 {
+    display: inline;
+    font-weight: 500;
+    color: #222a43;
+}
+
+
+.formulario span{
+    color: #5d6274;
+}
+
+.exportar_xls{
+    margin-top: .5rem;
+    background-color: #228115;
+    color: #fff;
+    padding: 0.5rem;
+    margin-right: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.exportar_xls:hover{
+    background-color: #0c4604;
+}
+
+.exportar_csv{
+    margin-top: .5rem;
+    background-color: #fdef2d;
+    color: #fff;
+    padding: 0.5rem;
+    margin-right: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.exportar_csv:hover{
+    background-color: #998f05;
+}
+
+.exportar_xml{
+    margin-top: .5rem;
+    background-color: #e63529;
+    color: #fff;
+    padding: 0.5rem;
+    margin-right: 5px;
+    border: none;
+    border-radius: 2px;
+}
+
+.exportar_xml:hover{
+    background-color: #86130b;
+}
